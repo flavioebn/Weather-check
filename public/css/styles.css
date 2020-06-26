@@ -1,0 +1,46 @@
+body{
+  text-align: center;
+  background-color: #171717;
+  margin: 0px;
+}
+
+h1, h2, p{
+  text-align: center;
+  color: white;
+}
+
+th, tr{
+  color: white;
+}
+
+tr:hover{
+  background-color: #191919;
+}
+
+.btn{
+  margin-bottom: 0.25rem;
+}
+
+nav{
+  margin-top: 0px;
+  background-color: #121212;
+}
+
+form{
+  display: inline-block;
+}
+
+@media (max-width: 768px){
+
+
+  form.botaoCidade{
+    display: block;
+    width: 100%;
+  }
+
+  .btn-outline-light{
+    width: 80%;
+  }
+
+
+}
